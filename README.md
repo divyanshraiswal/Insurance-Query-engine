@@ -1,3 +1,5 @@
+Model used is "BAAI/bge-base-en-v1.5" from hugging face
+
 ## 1. Setting Up Qdrant with Docker
 To run Qdrant in a Docker container, follow these steps:
 
