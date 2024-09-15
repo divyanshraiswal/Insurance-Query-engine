@@ -24,7 +24,7 @@ Split the Text: The text is divided into smaller chunks to create embeddings eff
 Generate Embeddings: Each chunk of text is transformed into a vector embedding using a pre-trained model.
 Store in Qdrant: The generated embeddings, along with the original text, are stored in the Qdrant database for later retrieval.
 
-Usage of app.py
+## 2/ Usage of app.py
 The app.py script is designed to query the Qdrant vector database and retrieve documents similar to a given input query. It takes a user-provided query, converts it into an embedding, and searches the database for the most similar embeddings. The results are then returned to the user based on similarity scores.
 
 # How It Works
