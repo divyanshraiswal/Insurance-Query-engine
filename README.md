@@ -1,4 +1,4 @@
-#1. Setting Up Qdrant with Docker
+## 1. Setting Up Qdrant with Docker
 To run Qdrant in a Docker container, follow these steps:
 
 Pull the Qdrant Docker Image:
@@ -12,14 +12,14 @@ Run Qdrant Container:
 docker run -p 6333:6333 qdrant/qdrant
 ```
 
-#2. Installing Required Libraries
+## 2. Installing Required Libraries
 Before running any scripts, ensure that all required Python libraries are installed:
 
 ```bash
 pip install -r requirements.txt
 ```
-#3. Usage of ingest.py
-The ingest.py script processes the PDF document, generates vector embeddings from the text, and stores these embeddings in the Qdrant vector database.
+## 3. Usage of ingest.py
+The ingest.py script processes the insurance_Handbook.pdf PDF document, generates vector embeddings from the text, and stores these embeddings in the Qdrant vector database.
 
 How It Works:
 Load the PDF: Reads the content of the specified PDF file.
