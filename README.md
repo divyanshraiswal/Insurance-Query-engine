@@ -32,7 +32,7 @@ Run the following command to process and ingest data into Qdrant:
 ```bash
 python ingest.py 
 ```
-#4. Usage of app.py
+## 4. Usage of app.py
 The app.py script is used to query the Qdrant vector database to retrieve documents based on a user-provided query.
 
 How It Works:
@@ -43,7 +43,7 @@ Usage:
 Run the following command to start querying:
 
 ```bash
-      python app.py
+python app.py
 ```
 Make sure the Qdrant container is running and the data has been ingested using the ingest.py script.
 
